@@ -9,7 +9,7 @@ let timer = params.get('coolDown'); // timer in seconds
 
 
 ComfyJS.onCommand = ( user, command, message, flags, extra ) => {
-  if( flags.broadcaster  && command === command ) {
+  if( (flags.broadcaster || flags.mod)  && command === command ) {
     if(DisplayCount==0 || extra.sinceLastCommand.any > timer*1000 ) {
       up();
       console.log("lol")

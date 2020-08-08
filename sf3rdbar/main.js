@@ -17,10 +17,7 @@ ComfyJS.onCommand = ( user, command, message, flags, extra ) => {
 }}
   
 
-  ComfyJS.onChat = ( user, message, flags, self, extra ) => {
-    console.log( 
-       ` ${user}: ${message}`);
-  }
+ 
 
   ComfyJS.Init(streamer);
 

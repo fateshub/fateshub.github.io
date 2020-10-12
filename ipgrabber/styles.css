@@ -1,0 +1,11 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+
+
+canvas{
+    background-image: url("https://wallpaperaccess.com/full/269159.png");
+}

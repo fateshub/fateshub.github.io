@@ -1,7 +1,7 @@
 {
   "particles": {
     "number": {
-      "value": 100,
+      "value": 200,
       "density": {
         "enable": true,
         "value_area": 800
@@ -11,7 +11,7 @@
       "value": "#fff"
     },
     "shape": {
-      "type": "image",
+      "type": "circle",
       "stroke": {
         "width": 0,
         "color": "#000000"
@@ -26,7 +26,7 @@
       }
     },
     "opacity": {
-      "value": 0.5,
+      "value": 0.7,
       "random": true,
       "anim": {
         "enable": false,
@@ -36,7 +36,7 @@
       }
     },
     "size": {
-      "value": 15,
+      "value": 10,
       "random": true,
       "anim": {
         "enable": false,

@@ -1,0 +1,19 @@
+body,
+html {
+  background-color: transparent;
+  height: 100%;
+  width: 100%;
+}
+
+.snow {
+  height: 100%;
+  position: absolute;
+  width: 100%;
+} 
+
+.petter {
+  width: 100vw;
+  height: 10rem;
+  background-image: url("Layer.png");
+  background-repeat: repeat-x;
+}
